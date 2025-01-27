@@ -1,10 +1,23 @@
 {
+  "name": "spanishpoint",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anjali",
+  "license": "ISC",
+  "description": "spanish point test",
   "dependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^22.0.0",
     "cypress": "^14.0.0"
   },
   "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.4",
     "cypress-esbuild-preprocessor": "^1.0.2",
     "esbuild": "^0.24.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/e2e/step-definitions/*.ts"
   }
 }
