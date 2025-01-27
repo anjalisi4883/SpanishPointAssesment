@@ -1,1 +1,1 @@
-Command to execute 'npx cypress open'
+Command to execute test run 'npx cypress open'
